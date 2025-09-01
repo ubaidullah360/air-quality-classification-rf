@@ -51,10 +51,10 @@ The script maps these to numeric values:
 Inside `air_quality_models.py`, update this line:
 
 ```python
-df = pd.read_excel('Model_air_quality_data.xlsx')
+df = pd.read_excel('INSERT Your AQI Data Here')
 ```
 
-Replace `'Model_air_quality_data.xlsx'` with your actual filename or path.
+Replace `'INSERT Your AQI Data Here'` with your actual filename or path.
 
 
 
@@ -84,11 +84,10 @@ The script will:
    * Weighted F1 Score
    * Weighted Precision
    * Weighted Recall
-   * Confusion Matrix
    * Classification Report
-5. Perform **5-fold Cross-Validation accuracy** on the original data (without SMOTE in CV).
-6. Identify the **best model by test-set accuracy**.
-7. Plot and display:
+
+5. Identify the **best model by test-set accuracy**.
+6. Plot and display:
 
    * Class distribution before/after SMOTE
    * Evaluation metrics for each model
@@ -119,9 +118,7 @@ The models are configured as follows:
 ├─ air_quality_models.py        # Main Python script (full code)
 ├─ README.md                    # Project documentation
 ├─ requirements.txt             # Python dependencies
-├─ .gitignore                   # Files to ignore (cache, data, venv, etc.)
-├─ data/                        # (optional) place your Excel file here (not committed)
-└─ outputs/                     # (optional) figures or logs if you save them
+
 ```
 
 ---
@@ -153,7 +150,7 @@ plt.savefig('outputs/<filename>.png', dpi=200, bbox_inches='tight')
 * Models use `random_state=42`
 * SMOTE applied only to the **training set**
 * Weighted metrics reported for imbalanced data
-* 5-fold CV performed on the **original un-resampled data**
+
 
 ---
 
