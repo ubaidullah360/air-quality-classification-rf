@@ -1,13 +1,6 @@
-Perfect 👍 Let’s make this **super simple** for you.
-Below is the **complete README.md** file — already merged with the short editor-facing introduction at the top.
+Here's your complete README.md file ready to paste directly into GitHub:
 
-👉 You just copy everything between the lines and paste it directly into your `README.md` on GitHub. No code files are mixed in here — this is **only the README content**.
-
----
-
-# README.md (full content to paste)
-
-````markdown
+```markdown
 # Air Quality Classification using Tree Ensembles
 
 ## Introduction for Editors
@@ -27,7 +20,7 @@ Editors and reviewers can run the script directly with a properly formatted data
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-````
+```
 
 Dependencies include:
 
@@ -164,18 +157,9 @@ plt.savefig('outputs/<filename>.png', dpi=200, bbox_inches='tight')
 
 ---
 
-## 8) License & Citation
+## 8) Citation
 
-* License: MIT (or your preferred license)
+
 * If you use this repository, please cite both the manuscript and this GitHub repository.
-
 ```
 
----
-
-✅ Now you have **one file only** → `README.md`.  
-- Paste this full content into GitHub’s README editor.  
-- Your Python code stays in `air_quality_models.py`.  
-
-Would you also like me to prepare the **requirements.txt** content in the same ready-to-paste way, so you don’t need to edit anything manually?
-```
