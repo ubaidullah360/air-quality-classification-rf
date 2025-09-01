@@ -1,14 +1,13 @@
-# Air Quality Classification using Tree Ensembles (Manuscript Companion)
+# Air Quality Classification using Tree Ensembles
 
-This repository contains the exact Python code used to classify **air quality** into:
-**Good (0)**, **Moderate (1)**, **Unhealthy (2)**, using SMOTE for class balancing and tree-ensemble models.
-
+This repository provides a single Python script for classifying air quality into three categories (**Good, Moderate, Unhealthy**) using SMOTE for class balancing and tree-ensemble models (Random Forest, Balanced RF, Shallow RF, Extra Trees).
 
 ---
 
-## 🔧 Environment
+## 1) Setup
 
-- **Python:** 3.9–3.12  
-- Install dependencies:
-  ```bash
-  pip install -r requirements.txt
+**Python**: 3.9 – 3.12
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
