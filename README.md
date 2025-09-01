@@ -2,7 +2,7 @@
 
 This repository contains the exact Python code used to classify **air quality** into:
 **Good (0)**, **Moderate (1)**, **Unhealthy (2)**, using SMOTE for class balancing and tree-ensemble models.
-The implementation faithfully matches the **hyperparameters reported in the manuscript table**.
+
 
 > **Reproducibility aim:** enable editors and reviewers to run the code and verify results end-to-end with a single script.
 
